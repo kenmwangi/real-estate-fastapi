@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+greenlet = "==3.2.3"
+pydantic-settings = "==2.9.1"
+psycopg = {extras = ["pool", "binary"], version = "*"}
+argon2-cffi = "==25.1.0"
+asyncpg = "==0.30.0"
+fastapi = {extras = ["standard"], version = "*"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.13"
